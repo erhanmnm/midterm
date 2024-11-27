@@ -5,7 +5,7 @@ from azure.keyvault.secrets import SecretClient
 def load_secrets():
     try:
         # Azure Key Vault URL
-        vault_url = "https://midtermkeyvault123.vault.azure.net/"
+        vault_url = "https://midtermproject2keyvault.vault.azure.net/"
         credential = DefaultAzureCredential()
         client = SecretClient(vault_url=vault_url, credential=credential)
 
